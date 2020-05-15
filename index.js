@@ -71,4 +71,4 @@ client.elevation = message => {
 //  console.log(e.replace(regToken, 'that was redacted'));
 //});
 
-client.login(settings.token);
+client.login(process.env.TOKEN);
