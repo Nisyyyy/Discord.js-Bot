@@ -1,11 +1,11 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const settings = require('./settings.json');
+const settings = require('settings.json');
 const chalk = require('chalk');
 const fs = require('fs');
 const moment = require('moment');
 const mongoose = require('mongoose')
-const customisation = require('./customisation.json');
+const customisation = require('customisation.json');
 require('./util/eventLoader')(client);
 
 const log = message => {
